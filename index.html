@@ -8,10 +8,10 @@
         <h1>Freijomil Bruno Ezequiel</h1>
         <img width="200" src="foto.jpg" alt="Foto perfil">
     </header>
-    <hr>
     <section>
-        <p>Edad: 24 años</p>
-        <p>Domiclio: Villa Dominico, Avellaneda, Buenos Aires</p>
+        <h3>Información</h3>
+        <p><u>Edad</u>: 24 años</p>
+        <p><u>Domiclio</u>: Villa Dominico, Avellaneda, Buenos Aires</p>
         <p class="lista">Series que me gustan:
             <ol>
                 <li>Rick & Morty</li>
@@ -26,24 +26,25 @@
                 <li>Fast and Furious</li>
             </ul>
         </p>
-        <p>No me gusta qudarme encerrado en mi casa en un día soleado porque siento que lo desperdicio</p>
-        <p>Me gusta salir a pasear por CABA o zona norte y andar en bicicleta recorriendo la ciudad</p>
-        <p>Prefiero los días Lunes antes que los Domingos ya que muchas veces me aburren</p>
+        <div class="parrafo">
+            <p>No me gusta qudarme encerrado en mi casa en un día soleado porque siento que lo desperdicio</p>
+            <p>Me gusta salir a pasear por CABA o zona norte y andar en bicicleta recorriendo la ciudad</p>
+            <p>Prefiero los días Lunes antes que los Domingos ya que muchas veces me aburren</p>
+        </div>
     </section>
-    <hr>
     <footer>
         <p>Si desea contactarme puede completar el siguiente formulario:</p>
-        <form>
+        <form class="formulario">
             <label for="nombre">Nombre:</label>
             <input type="text" name="nombre" placeholder="Ej: Luis" />
             <label for="apellido">Apellido:</label>
             <input type="text" name="apellido" placeholder="Ej: Gonzalez">
             <br>
-            <label for="comentario">Comentario:</label><br>
-            <textarea name="comentario" cols="60" rows="5" placeholder="Escribir aquí..."></textarea>
+            <textarea name="comentario" cols="60" rows="5" placeholder="Escriba aquí su comentario..."></textarea>
             <br>
-            <input type="reset" value="Borrar">
-            <input type="submit" value="Enviar">
+            <br>
+            <input type="reset" value="BORRAR" style="background-color: red;">
+            <input type="submit" value="ENVIAR" style="background-color: greenyellow;">
         </form>
     </footer>
 </body>
